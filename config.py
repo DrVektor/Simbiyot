@@ -147,7 +147,7 @@ screens = [
                 widget.QuickExit(foreground="#9e1e00", background=["#a44903", "#eea013"]),
                 widget.Battery(background=["#a44903", "#eea013"], foreground="#9e1e00"),
                 widget.BatteryIcon(background=["#a44903", "#eea013"], foreground="#9e1e00"),
-                widget.PulseVolume(fmt="Vol: {}", emoji=True, 
+                widget.PulseVolume(fmt="Vol: {}",  
                               background=["#a44903", "#eea013"], 
                               channel="Master",
                               foreground="#9e1e00", 
